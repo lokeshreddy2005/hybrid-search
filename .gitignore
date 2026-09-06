@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Generated corpus (regenerate with scripts/download_corpus.py) and index
+# artifacts (regenerate with scripts/build_index.py) — large and derived,
+# not source.
+data/*.jsonl
+index/store/
+
+*.egg-info/
+.DS_Store
+benchmark_results/
