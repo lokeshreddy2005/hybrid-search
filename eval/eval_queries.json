@@ -1,0 +1,122 @@
+[
+  {
+    "id": "q01",
+    "query": "Albert Einstein",
+    "relevant_ids": ["simplewiki-2138"],
+    "note": "Exact named-entity lookup. Lexically trivial; both BM25 and vector should find it easily."
+  },
+  {
+    "id": "q02",
+    "query": "capital of France",
+    "relevant_ids": ["simplewiki-291"],
+    "note": "Relational/factual query. The corpus abstract for 'France' (truncated to ~1500 chars) does not literally contain the words 'capital' or 'Paris' -- tests whether repeated mentions of 'France' itself is enough signal for BM25, and whether the embedding captures the country-level topic for vector search."
+  },
+  {
+    "id": "q03",
+    "query": "Python programming language",
+    "relevant_ids": ["simplewiki-44678"],
+    "note": "Disambiguated entity query (vs. the snake genus 'Python' at simplewiki-44716). Should be easy for both modes given the extra context words."
+  },
+  {
+    "id": "q04",
+    "query": "Python",
+    "relevant_ids": ["simplewiki-44678", "simplewiki-44716"],
+    "note": "Deliberately ambiguous single-word query: could mean the programming language or the snake genus. Both documents are honestly relevant given the query alone. Tests how each mode handles ambiguity."
+  },
+  {
+    "id": "q05",
+    "query": "Isaac Newton",
+    "relevant_ids": ["simplewiki-5123"],
+    "note": "Exact named-entity lookup."
+  },
+  {
+    "id": "q06",
+    "query": "planets in the Solar System",
+    "relevant_ids": ["simplewiki-800"],
+    "note": "Conceptual query with reasonable lexical overlap ('Solar System' appears verbatim in the article)."
+  },
+  {
+    "id": "q07",
+    "query": "Mount Everest highest mountain",
+    "relevant_ids": ["simplewiki-7447"],
+    "note": "Entity + descriptive phrase, high lexical overlap expected."
+  },
+  {
+    "id": "q08",
+    "query": "Great Barrier Reef",
+    "relevant_ids": ["simplewiki-23635"],
+    "note": "Exact named-entity lookup."
+  },
+  {
+    "id": "q09",
+    "query": "first Harry Potter book",
+    "relevant_ids": ["simplewiki-14604"],
+    "note": "Descriptive query for a specific entity ('Harry Potter and the Philosopher's Stone') that does not share the word 'first' with the title -- relies on 'Harry Potter' + 'book' overlap plus semantic understanding of 'first' as 'Philosopher's Stone' being book one in the series."
+  },
+  {
+    "id": "q10",
+    "query": "Nile River in Egypt",
+    "relevant_ids": ["simplewiki-18589"],
+    "note": "Entity + descriptive context."
+  },
+  {
+    "id": "q11",
+    "query": "what causes gravity",
+    "relevant_ids": ["simplewiki-2901"],
+    "note": "Natural-language question phrasing rather than a keyword query -- tests robustness to query style."
+  },
+  {
+    "id": "q12",
+    "query": "how plants make food from sunlight",
+    "relevant_ids": ["simplewiki-3518"],
+    "note": "Paraphrase query for 'Photosynthesis'. The article talks about plants making 'carbohydrates'/'sugars' using sunlight, not literally 'food' -- a strong test of semantic (vector) retrieval vs. literal term matching (BM25)."
+  },
+  {
+    "id": "q13",
+    "query": "FIFA World Cup soccer tournament",
+    "relevant_ids": ["simplewiki-12984"],
+    "note": "Entity + descriptive context, high lexical overlap expected."
+  },
+  {
+    "id": "q14",
+    "query": "global warming and climate change",
+    "relevant_ids": ["simplewiki-66788", "simplewiki-100534"],
+    "note": "Broad topic with two genuinely relevant documents: the main 'Climate change' article and the 'Intergovernmental Panel on Climate Change' article. Tests recall@k with multiple relevant docs."
+  },
+  {
+    "id": "q15",
+    "query": "star explosion",
+    "relevant_ids": ["simplewiki-24914"],
+    "note": "'Supernova' article literally opens with 'A supernova is the explosion of a giant star' -- singular 'star' matches the query token exactly, so BM25 should do well here."
+  },
+  {
+    "id": "q16",
+    "query": "stars exploding at the end of their life",
+    "relevant_ids": ["simplewiki-24914"],
+    "note": "Same target document as q15 but phrased with the plural 'stars' and no shared words with the article beyond 'star(s)'. Our BM25 implementation has no stemming, so the plural 'stars' token does not match the singular 'star' postings at all -- this query is designed to expose that specific limitation and see whether vector search compensates."
+  },
+  {
+    "id": "q17",
+    "query": "dinosaur extinction",
+    "relevant_ids": ["simplewiki-4455"],
+    "note": "Topic query, reasonable lexical overlap expected ('dinosaur' is central to the article)."
+  },
+  {
+    "id": "q18",
+    "query": "volcanic eruption lava",
+    "relevant_ids": ["simplewiki-4483"],
+    "note": "Topic query with high lexical overlap ('volcano', 'lava' both appear in the article -- 'volcanic' vs 'volcano' is itself a mild stemming test)."
+  },
+  {
+    "id": "q19",
+    "query": "moons of Jupiter",
+    "relevant_ids": ["simplewiki-32783", "simplewiki-78141", "simplewiki-81581", "simplewiki-81583"],
+    "note": "Multi-relevant-document query: Europa, Io, Ganymede, and Callisto are all moons of Jupiter with articles in this corpus subset (there are more moons of Jupiter but these four are the ones present in our 30k-document sample). Tests recall@k against a larger relevant set."
+  },
+  {
+    "id": "q20",
+    "query": "spider web trap insects",
+    "relevant_ids": ["simplewiki-19903", "simplewiki-26641"],
+    "note": "Two related, both-relevant documents: 'Spider' and 'Spider web'. Tests whether a mode over-focuses on one and misses the other."
+  }
+]

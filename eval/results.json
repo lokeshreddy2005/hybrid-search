@@ -1,0 +1,1235 @@
+{
+  "bm25": {
+    "mode": "bm25",
+    "aggregate": {
+      "precision@5": 0.18,
+      "recall@5": 0.775,
+      "precision@10": 0.09,
+      "recall@10": 0.775
+    },
+    "per_query": [
+      {
+        "id": "q01",
+        "query": "Albert Einstein",
+        "retrieved": [
+          "simplewiki-107077",
+          "simplewiki-38700",
+          "simplewiki-2138",
+          "simplewiki-9252",
+          "simplewiki-116446",
+          "simplewiki-33395",
+          "simplewiki-9254",
+          "simplewiki-27280",
+          "simplewiki-45232",
+          "simplewiki-67917"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q02",
+        "query": "capital of France",
+        "retrieved": [
+          "simplewiki-61257",
+          "simplewiki-52386",
+          "simplewiki-52380",
+          "simplewiki-33939",
+          "simplewiki-33946",
+          "simplewiki-129646",
+          "simplewiki-94328",
+          "simplewiki-52374",
+          "simplewiki-61028",
+          "simplewiki-101686"
+        ],
+        "precision@5": 0.0,
+        "recall@5": 0.0,
+        "precision@10": 0.0,
+        "recall@10": 0.0
+      },
+      {
+        "id": "q03",
+        "query": "Python programming language",
+        "retrieved": [
+          "simplewiki-44678",
+          "simplewiki-6362",
+          "simplewiki-25626",
+          "simplewiki-31531",
+          "simplewiki-122799",
+          "simplewiki-71502",
+          "simplewiki-40902",
+          "simplewiki-20871",
+          "simplewiki-56009",
+          "simplewiki-20867"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q04",
+        "query": "Python",
+        "retrieved": [
+          "simplewiki-44678",
+          "simplewiki-3998",
+          "simplewiki-44716",
+          "simplewiki-40902",
+          "simplewiki-4020",
+          "simplewiki-43008",
+          "simplewiki-7465",
+          "simplewiki-26806",
+          "simplewiki-92580",
+          "simplewiki-7467"
+        ],
+        "precision@5": 0.4,
+        "recall@5": 1.0,
+        "precision@10": 0.2,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q05",
+        "query": "Isaac Newton",
+        "retrieved": [
+          "simplewiki-5123",
+          "simplewiki-48900",
+          "simplewiki-46926",
+          "simplewiki-118806",
+          "simplewiki-9208",
+          "simplewiki-84847",
+          "simplewiki-161",
+          "simplewiki-129613",
+          "simplewiki-14844",
+          "simplewiki-30018"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q06",
+        "query": "planets in the Solar System",
+        "retrieved": [
+          "simplewiki-39058",
+          "simplewiki-639",
+          "simplewiki-800",
+          "simplewiki-4413",
+          "simplewiki-42257",
+          "simplewiki-39054",
+          "simplewiki-408",
+          "simplewiki-102919",
+          "simplewiki-34462",
+          "simplewiki-219"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q07",
+        "query": "Mount Everest highest mountain",
+        "retrieved": [
+          "simplewiki-7447",
+          "simplewiki-14411",
+          "simplewiki-14079",
+          "simplewiki-123383",
+          "simplewiki-126783",
+          "simplewiki-41016",
+          "simplewiki-76395",
+          "simplewiki-33948",
+          "simplewiki-5118",
+          "simplewiki-69443"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q08",
+        "query": "Great Barrier Reef",
+        "retrieved": [
+          "simplewiki-23635",
+          "simplewiki-41829",
+          "simplewiki-29718",
+          "simplewiki-33121",
+          "simplewiki-98027",
+          "simplewiki-43071",
+          "simplewiki-67225",
+          "simplewiki-57723",
+          "simplewiki-18045",
+          "simplewiki-78118"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q09",
+        "query": "first Harry Potter book",
+        "retrieved": [
+          "simplewiki-53677",
+          "simplewiki-14604",
+          "simplewiki-97188",
+          "simplewiki-17668",
+          "simplewiki-126020",
+          "simplewiki-29535",
+          "simplewiki-7385",
+          "simplewiki-15618",
+          "simplewiki-107409",
+          "simplewiki-17669"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q10",
+        "query": "Nile River in Egypt",
+        "retrieved": [
+          "simplewiki-18589",
+          "simplewiki-90077",
+          "simplewiki-86822",
+          "simplewiki-15034",
+          "simplewiki-61798",
+          "simplewiki-108644",
+          "simplewiki-45255",
+          "simplewiki-54446",
+          "simplewiki-23334",
+          "simplewiki-67644"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q11",
+        "query": "what causes gravity",
+        "retrieved": [
+          "simplewiki-2901",
+          "simplewiki-76362",
+          "simplewiki-9421",
+          "simplewiki-81214",
+          "simplewiki-67456",
+          "simplewiki-3220",
+          "simplewiki-77039",
+          "simplewiki-56179",
+          "simplewiki-49901",
+          "simplewiki-64721"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q12",
+        "query": "how plants make food from sunlight",
+        "retrieved": [
+          "simplewiki-628",
+          "simplewiki-30982",
+          "simplewiki-847",
+          "simplewiki-46184",
+          "simplewiki-765",
+          "simplewiki-21914",
+          "simplewiki-30454",
+          "simplewiki-47652",
+          "simplewiki-45924",
+          "simplewiki-11614"
+        ],
+        "precision@5": 0.0,
+        "recall@5": 0.0,
+        "precision@10": 0.0,
+        "recall@10": 0.0
+      },
+      {
+        "id": "q13",
+        "query": "FIFA World Cup soccer tournament",
+        "retrieved": [
+          "simplewiki-12984",
+          "simplewiki-31319",
+          "simplewiki-30881",
+          "simplewiki-82316",
+          "simplewiki-37287",
+          "simplewiki-56120",
+          "simplewiki-128651",
+          "simplewiki-25397",
+          "simplewiki-82323",
+          "simplewiki-57611"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q14",
+        "query": "global warming and climate change",
+        "retrieved": [
+          "simplewiki-66788",
+          "simplewiki-104451",
+          "simplewiki-107736",
+          "simplewiki-7368",
+          "simplewiki-15087",
+          "simplewiki-31555",
+          "simplewiki-8206",
+          "simplewiki-57256",
+          "simplewiki-11599",
+          "simplewiki-9"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "precision@10": 0.1,
+        "recall@10": 0.5
+      },
+      {
+        "id": "q15",
+        "query": "star explosion",
+        "retrieved": [
+          "simplewiki-24914",
+          "simplewiki-76248",
+          "simplewiki-114624",
+          "simplewiki-96972",
+          "simplewiki-42777",
+          "simplewiki-31713",
+          "simplewiki-4397",
+          "simplewiki-20452",
+          "simplewiki-21629",
+          "simplewiki-73750"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q16",
+        "query": "stars exploding at the end of their life",
+        "retrieved": [
+          "simplewiki-124721",
+          "simplewiki-24914",
+          "simplewiki-124504",
+          "simplewiki-73750",
+          "simplewiki-20031",
+          "simplewiki-57637",
+          "simplewiki-34222",
+          "simplewiki-4443",
+          "simplewiki-119934",
+          "simplewiki-60140"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q17",
+        "query": "dinosaur extinction",
+        "retrieved": [
+          "simplewiki-25863",
+          "simplewiki-109582",
+          "simplewiki-4455",
+          "simplewiki-104472",
+          "simplewiki-46202",
+          "simplewiki-44436",
+          "simplewiki-11143",
+          "simplewiki-65615",
+          "simplewiki-109715",
+          "simplewiki-110361"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q18",
+        "query": "volcanic eruption lava",
+        "retrieved": [
+          "simplewiki-33745",
+          "simplewiki-84883",
+          "simplewiki-84881",
+          "simplewiki-47265",
+          "simplewiki-85806",
+          "simplewiki-17756",
+          "simplewiki-12754",
+          "simplewiki-97329",
+          "simplewiki-97330",
+          "simplewiki-12751"
+        ],
+        "precision@5": 0.0,
+        "recall@5": 0.0,
+        "precision@10": 0.0,
+        "recall@10": 0.0
+      },
+      {
+        "id": "q19",
+        "query": "moons of Jupiter",
+        "retrieved": [
+          "simplewiki-81655",
+          "simplewiki-63231",
+          "simplewiki-81658",
+          "simplewiki-81161",
+          "simplewiki-81132",
+          "simplewiki-408",
+          "simplewiki-81686",
+          "simplewiki-81326",
+          "simplewiki-80615",
+          "simplewiki-80664"
+        ],
+        "precision@5": 0.0,
+        "recall@5": 0.0,
+        "precision@10": 0.0,
+        "recall@10": 0.0
+      },
+      {
+        "id": "q20",
+        "query": "spider web trap insects",
+        "retrieved": [
+          "simplewiki-26641",
+          "simplewiki-914",
+          "simplewiki-19903",
+          "simplewiki-18690",
+          "simplewiki-46988",
+          "simplewiki-22654",
+          "simplewiki-6037",
+          "simplewiki-74235",
+          "simplewiki-112613",
+          "simplewiki-124369"
+        ],
+        "precision@5": 0.4,
+        "recall@5": 1.0,
+        "precision@10": 0.2,
+        "recall@10": 1.0
+      }
+    ]
+  },
+  "vector": {
+    "mode": "vector",
+    "aggregate": {
+      "precision@5": 0.19,
+      "recall@5": 0.85,
+      "precision@10": 0.11500000000000002,
+      "recall@10": 0.9625
+    },
+    "per_query": [
+      {
+        "id": "q01",
+        "query": "Albert Einstein",
+        "retrieved": [
+          "simplewiki-2138",
+          "simplewiki-107077",
+          "simplewiki-87508",
+          "simplewiki-32859",
+          "simplewiki-116446",
+          "simplewiki-4332",
+          "simplewiki-9204",
+          "simplewiki-14844",
+          "simplewiki-15649",
+          "simplewiki-4627"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q02",
+        "query": "capital of France",
+        "retrieved": [
+          "simplewiki-33988",
+          "simplewiki-52386",
+          "simplewiki-33939",
+          "simplewiki-117079",
+          "simplewiki-33942",
+          "simplewiki-129646",
+          "simplewiki-291",
+          "simplewiki-101686",
+          "simplewiki-52380",
+          "simplewiki-4467"
+        ],
+        "precision@5": 0.0,
+        "recall@5": 0.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q03",
+        "query": "Python programming language",
+        "retrieved": [
+          "simplewiki-44678",
+          "simplewiki-31531",
+          "simplewiki-6362",
+          "simplewiki-20858",
+          "simplewiki-31540",
+          "simplewiki-71502",
+          "simplewiki-56009",
+          "simplewiki-25626",
+          "simplewiki-3925",
+          "simplewiki-123020"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q04",
+        "query": "Python",
+        "retrieved": [
+          "simplewiki-44678",
+          "simplewiki-20858",
+          "simplewiki-31531",
+          "simplewiki-6362",
+          "simplewiki-2957",
+          "simplewiki-71502",
+          "simplewiki-31540",
+          "simplewiki-44716",
+          "simplewiki-20867",
+          "simplewiki-44905"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "precision@10": 0.2,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q05",
+        "query": "Isaac Newton",
+        "retrieved": [
+          "simplewiki-5123",
+          "simplewiki-110809",
+          "simplewiki-48900",
+          "simplewiki-87508",
+          "simplewiki-110808",
+          "simplewiki-84847",
+          "simplewiki-118806",
+          "simplewiki-4332",
+          "simplewiki-14844",
+          "simplewiki-2138"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q06",
+        "query": "planets in the Solar System",
+        "retrieved": [
+          "simplewiki-639",
+          "simplewiki-4413",
+          "simplewiki-39054",
+          "simplewiki-102919",
+          "simplewiki-800",
+          "simplewiki-34462",
+          "simplewiki-39058",
+          "simplewiki-24060",
+          "simplewiki-408",
+          "simplewiki-802"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q07",
+        "query": "Mount Everest highest mountain",
+        "retrieved": [
+          "simplewiki-7447",
+          "simplewiki-14411",
+          "simplewiki-14079",
+          "simplewiki-123383",
+          "simplewiki-109492",
+          "simplewiki-5118",
+          "simplewiki-45751",
+          "simplewiki-3924",
+          "simplewiki-102338",
+          "simplewiki-45921"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q08",
+        "query": "Great Barrier Reef",
+        "retrieved": [
+          "simplewiki-23635",
+          "simplewiki-69419",
+          "simplewiki-29718",
+          "simplewiki-41829",
+          "simplewiki-18045",
+          "simplewiki-18044",
+          "simplewiki-16785",
+          "simplewiki-75083",
+          "simplewiki-109298",
+          "simplewiki-43071"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q09",
+        "query": "first Harry Potter book",
+        "retrieved": [
+          "simplewiki-14604",
+          "simplewiki-29535",
+          "simplewiki-16966",
+          "simplewiki-17669",
+          "simplewiki-53677",
+          "simplewiki-17668",
+          "simplewiki-15618",
+          "simplewiki-96622",
+          "simplewiki-84534",
+          "simplewiki-84294"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q10",
+        "query": "Nile River in Egypt",
+        "retrieved": [
+          "simplewiki-18589",
+          "simplewiki-86822",
+          "simplewiki-90077",
+          "simplewiki-90828",
+          "simplewiki-89832",
+          "simplewiki-15034",
+          "simplewiki-61798",
+          "simplewiki-108644",
+          "simplewiki-248",
+          "simplewiki-116081"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q11",
+        "query": "what causes gravity",
+        "retrieved": [
+          "simplewiki-2901",
+          "simplewiki-56179",
+          "simplewiki-76362",
+          "simplewiki-49901",
+          "simplewiki-513",
+          "simplewiki-28144",
+          "simplewiki-81214",
+          "simplewiki-47292",
+          "simplewiki-8799",
+          "simplewiki-18836"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q12",
+        "query": "how plants make food from sunlight",
+        "retrieved": [
+          "simplewiki-30982",
+          "simplewiki-3518",
+          "simplewiki-628",
+          "simplewiki-50168",
+          "simplewiki-30454",
+          "simplewiki-19827",
+          "simplewiki-56400",
+          "simplewiki-50034",
+          "simplewiki-16390",
+          "simplewiki-41024"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q13",
+        "query": "FIFA World Cup soccer tournament",
+        "retrieved": [
+          "simplewiki-12984",
+          "simplewiki-29026",
+          "simplewiki-82316",
+          "simplewiki-82315",
+          "simplewiki-82326",
+          "simplewiki-31319",
+          "simplewiki-82317",
+          "simplewiki-65893",
+          "simplewiki-53480",
+          "simplewiki-82318"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q14",
+        "query": "global warming and climate change",
+        "retrieved": [
+          "simplewiki-7368",
+          "simplewiki-66788",
+          "simplewiki-4746",
+          "simplewiki-57256",
+          "simplewiki-78453",
+          "simplewiki-100534",
+          "simplewiki-31555",
+          "simplewiki-104451",
+          "simplewiki-11599",
+          "simplewiki-27031"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "precision@10": 0.2,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q15",
+        "query": "star explosion",
+        "retrieved": [
+          "simplewiki-24914",
+          "simplewiki-31051",
+          "simplewiki-55056",
+          "simplewiki-9421",
+          "simplewiki-96972",
+          "simplewiki-57637",
+          "simplewiki-28699",
+          "simplewiki-4443",
+          "simplewiki-3017",
+          "simplewiki-37686"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q16",
+        "query": "stars exploding at the end of their life",
+        "retrieved": [
+          "simplewiki-24914",
+          "simplewiki-9421",
+          "simplewiki-57637",
+          "simplewiki-73750",
+          "simplewiki-96972",
+          "simplewiki-4443",
+          "simplewiki-55056",
+          "simplewiki-31051",
+          "simplewiki-28699",
+          "simplewiki-3017"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q17",
+        "query": "dinosaur extinction",
+        "retrieved": [
+          "simplewiki-11143",
+          "simplewiki-46202",
+          "simplewiki-43357",
+          "simplewiki-44234",
+          "simplewiki-4455",
+          "simplewiki-46058",
+          "simplewiki-43301",
+          "simplewiki-81364",
+          "simplewiki-76032",
+          "simplewiki-80574"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q18",
+        "query": "volcanic eruption lava",
+        "retrieved": [
+          "simplewiki-33745",
+          "simplewiki-4483",
+          "simplewiki-1972",
+          "simplewiki-84883",
+          "simplewiki-97329",
+          "simplewiki-25307",
+          "simplewiki-84881",
+          "simplewiki-61904",
+          "simplewiki-3800",
+          "simplewiki-85806"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q19",
+        "query": "moons of Jupiter",
+        "retrieved": [
+          "simplewiki-63231",
+          "simplewiki-81655",
+          "simplewiki-408",
+          "simplewiki-81118",
+          "simplewiki-81372",
+          "simplewiki-81132",
+          "simplewiki-81187",
+          "simplewiki-80944",
+          "simplewiki-78141",
+          "simplewiki-81161"
+        ],
+        "precision@5": 0.0,
+        "recall@5": 0.0,
+        "precision@10": 0.1,
+        "recall@10": 0.25
+      },
+      {
+        "id": "q20",
+        "query": "spider web trap insects",
+        "retrieved": [
+          "simplewiki-914",
+          "simplewiki-26641",
+          "simplewiki-19903",
+          "simplewiki-101288",
+          "simplewiki-47020",
+          "simplewiki-46988",
+          "simplewiki-21128",
+          "simplewiki-48435",
+          "simplewiki-48437",
+          "simplewiki-16731"
+        ],
+        "precision@5": 0.4,
+        "recall@5": 1.0,
+        "precision@10": 0.2,
+        "recall@10": 1.0
+      }
+    ]
+  },
+  "hybrid": {
+    "mode": "hybrid",
+    "aggregate": {
+      "precision@5": 0.18,
+      "recall@5": 0.775,
+      "precision@10": 0.1,
+      "recall@10": 0.875
+    },
+    "per_query": [
+      {
+        "id": "q01",
+        "query": "Albert Einstein",
+        "retrieved": [
+          "simplewiki-107077",
+          "simplewiki-2138",
+          "simplewiki-116446",
+          "simplewiki-87508",
+          "simplewiki-38700",
+          "simplewiki-4332",
+          "simplewiki-32859",
+          "simplewiki-9254",
+          "simplewiki-9204",
+          "simplewiki-54370"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q02",
+        "query": "capital of France",
+        "retrieved": [
+          "simplewiki-52386",
+          "simplewiki-33939",
+          "simplewiki-52380",
+          "simplewiki-129646",
+          "simplewiki-33988",
+          "simplewiki-101686",
+          "simplewiki-61257",
+          "simplewiki-128893",
+          "simplewiki-41792",
+          "simplewiki-52374"
+        ],
+        "precision@5": 0.0,
+        "recall@5": 0.0,
+        "precision@10": 0.0,
+        "recall@10": 0.0
+      },
+      {
+        "id": "q03",
+        "query": "Python programming language",
+        "retrieved": [
+          "simplewiki-44678",
+          "simplewiki-6362",
+          "simplewiki-31531",
+          "simplewiki-25626",
+          "simplewiki-71502",
+          "simplewiki-56009",
+          "simplewiki-31540",
+          "simplewiki-44905",
+          "simplewiki-20867",
+          "simplewiki-122799"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q04",
+        "query": "Python",
+        "retrieved": [
+          "simplewiki-44678",
+          "simplewiki-44716",
+          "simplewiki-6362",
+          "simplewiki-31531",
+          "simplewiki-25626",
+          "simplewiki-43008",
+          "simplewiki-2064",
+          "simplewiki-3998",
+          "simplewiki-20858",
+          "simplewiki-40902"
+        ],
+        "precision@5": 0.4,
+        "recall@5": 1.0,
+        "precision@10": 0.2,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q05",
+        "query": "Isaac Newton",
+        "retrieved": [
+          "simplewiki-5123",
+          "simplewiki-48900",
+          "simplewiki-118806",
+          "simplewiki-84847",
+          "simplewiki-87508",
+          "simplewiki-110809",
+          "simplewiki-161",
+          "simplewiki-14844",
+          "simplewiki-4332",
+          "simplewiki-9208"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q06",
+        "query": "planets in the Solar System",
+        "retrieved": [
+          "simplewiki-639",
+          "simplewiki-4413",
+          "simplewiki-39058",
+          "simplewiki-800",
+          "simplewiki-39054",
+          "simplewiki-102919",
+          "simplewiki-34462",
+          "simplewiki-408",
+          "simplewiki-42257",
+          "simplewiki-24060"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q07",
+        "query": "Mount Everest highest mountain",
+        "retrieved": [
+          "simplewiki-7447",
+          "simplewiki-14411",
+          "simplewiki-14079",
+          "simplewiki-123383",
+          "simplewiki-5118",
+          "simplewiki-41016",
+          "simplewiki-102338",
+          "simplewiki-45751",
+          "simplewiki-41195",
+          "simplewiki-126783"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q08",
+        "query": "Great Barrier Reef",
+        "retrieved": [
+          "simplewiki-23635",
+          "simplewiki-41829",
+          "simplewiki-29718",
+          "simplewiki-18045",
+          "simplewiki-69419",
+          "simplewiki-43071",
+          "simplewiki-33121",
+          "simplewiki-109298",
+          "simplewiki-18205",
+          "simplewiki-70119"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q09",
+        "query": "first Harry Potter book",
+        "retrieved": [
+          "simplewiki-14604",
+          "simplewiki-53677",
+          "simplewiki-29535",
+          "simplewiki-17668",
+          "simplewiki-17669",
+          "simplewiki-15618",
+          "simplewiki-16966",
+          "simplewiki-7385",
+          "simplewiki-126020",
+          "simplewiki-84534"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q10",
+        "query": "Nile River in Egypt",
+        "retrieved": [
+          "simplewiki-18589",
+          "simplewiki-90077",
+          "simplewiki-86822",
+          "simplewiki-15034",
+          "simplewiki-61798",
+          "simplewiki-108644",
+          "simplewiki-90828",
+          "simplewiki-248",
+          "simplewiki-64021",
+          "simplewiki-89832"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q11",
+        "query": "what causes gravity",
+        "retrieved": [
+          "simplewiki-2901",
+          "simplewiki-76362",
+          "simplewiki-56179",
+          "simplewiki-81214",
+          "simplewiki-49901",
+          "simplewiki-77039",
+          "simplewiki-3220",
+          "simplewiki-75952",
+          "simplewiki-30130",
+          "simplewiki-9421"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q12",
+        "query": "how plants make food from sunlight",
+        "retrieved": [
+          "simplewiki-30982",
+          "simplewiki-628",
+          "simplewiki-30454",
+          "simplewiki-19827",
+          "simplewiki-46184",
+          "simplewiki-3518",
+          "simplewiki-47652",
+          "simplewiki-280",
+          "simplewiki-4618",
+          "simplewiki-50034"
+        ],
+        "precision@5": 0.0,
+        "recall@5": 0.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q13",
+        "query": "FIFA World Cup soccer tournament",
+        "retrieved": [
+          "simplewiki-12984",
+          "simplewiki-82316",
+          "simplewiki-31319",
+          "simplewiki-37287",
+          "simplewiki-65893",
+          "simplewiki-29026",
+          "simplewiki-30881",
+          "simplewiki-82315",
+          "simplewiki-53480",
+          "simplewiki-56120"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q14",
+        "query": "global warming and climate change",
+        "retrieved": [
+          "simplewiki-66788",
+          "simplewiki-7368",
+          "simplewiki-104451",
+          "simplewiki-57256",
+          "simplewiki-31555",
+          "simplewiki-4746",
+          "simplewiki-11599",
+          "simplewiki-15087",
+          "simplewiki-8206",
+          "simplewiki-78453"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "precision@10": 0.1,
+        "recall@10": 0.5
+      },
+      {
+        "id": "q15",
+        "query": "star explosion",
+        "retrieved": [
+          "simplewiki-24914",
+          "simplewiki-96972",
+          "simplewiki-31051",
+          "simplewiki-55056",
+          "simplewiki-73750",
+          "simplewiki-9421",
+          "simplewiki-114624",
+          "simplewiki-42777",
+          "simplewiki-40423",
+          "simplewiki-31713"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q16",
+        "query": "stars exploding at the end of their life",
+        "retrieved": [
+          "simplewiki-24914",
+          "simplewiki-73750",
+          "simplewiki-57637",
+          "simplewiki-9421",
+          "simplewiki-4443",
+          "simplewiki-124721",
+          "simplewiki-3017",
+          "simplewiki-125638",
+          "simplewiki-96972",
+          "simplewiki-4412"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q17",
+        "query": "dinosaur extinction",
+        "retrieved": [
+          "simplewiki-46202",
+          "simplewiki-11143",
+          "simplewiki-4455",
+          "simplewiki-104472",
+          "simplewiki-44339",
+          "simplewiki-43357",
+          "simplewiki-113697",
+          "simplewiki-43293",
+          "simplewiki-25863",
+          "simplewiki-109582"
+        ],
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q18",
+        "query": "volcanic eruption lava",
+        "retrieved": [
+          "simplewiki-33745",
+          "simplewiki-84883",
+          "simplewiki-84881",
+          "simplewiki-97329",
+          "simplewiki-85806",
+          "simplewiki-47265",
+          "simplewiki-61904",
+          "simplewiki-17756",
+          "simplewiki-3800",
+          "simplewiki-4483"
+        ],
+        "precision@5": 0.0,
+        "recall@5": 0.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0
+      },
+      {
+        "id": "q19",
+        "query": "moons of Jupiter",
+        "retrieved": [
+          "simplewiki-81655",
+          "simplewiki-63231",
+          "simplewiki-408",
+          "simplewiki-81132",
+          "simplewiki-81161",
+          "simplewiki-81326",
+          "simplewiki-81118",
+          "simplewiki-81108",
+          "simplewiki-80996",
+          "simplewiki-81658"
+        ],
+        "precision@5": 0.0,
+        "recall@5": 0.0,
+        "precision@10": 0.0,
+        "recall@10": 0.0
+      },
+      {
+        "id": "q20",
+        "query": "spider web trap insects",
+        "retrieved": [
+          "simplewiki-26641",
+          "simplewiki-914",
+          "simplewiki-19903",
+          "simplewiki-46988",
+          "simplewiki-6037",
+          "simplewiki-124369",
+          "simplewiki-18690",
+          "simplewiki-112613",
+          "simplewiki-3750",
+          "simplewiki-47020"
+        ],
+        "precision@5": 0.4,
+        "recall@5": 1.0,
+        "precision@10": 0.2,
+        "recall@10": 1.0
+      }
+    ]
+  }
+}
